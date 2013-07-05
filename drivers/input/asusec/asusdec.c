@@ -207,7 +207,7 @@ static DEVICE_ATTR(ec_info, S_IWUSR | S_IRUGO, asusdec_info_show,NULL);
 static DEVICE_ATTR(ec_dock, S_IWUSR | S_IRUGO, asusdec_show_dock,NULL);
 static DEVICE_ATTR(ec_dock_led, S_IWUSR | S_IRUGO, asusdec_led_show,asusdec_store_led);
 static DEVICE_ATTR(ec_charging_led, S_IWUSR | S_IRUGO, NULL, asusdec_charging_led_store);
-static DEVICE_ATTR(ec_wakeup, S_IWUSR | S_IRUGO, asusdec_show_ec_wakeup, asusdec_store_ec_wakeup);
+static DEVICE_ATTR(ec_wakeup, S_IWUSR | S_IRUGO, asusdec_show_ec_wakeup,asusdec_store_ec_wakeup);
 static DEVICE_ATTR(ec_dock_discharge, S_IWUSR | S_IRUGO, asusdec_show_drain,NULL);
 static DEVICE_ATTR(ec_dock_battery, S_IWUSR | S_IRUGO, asusdec_show_dock_battery,NULL);
 static DEVICE_ATTR(ec_dock_battery_status, S_IWUSR | S_IRUGO, asusdec_show_dock_battery_status,NULL);
